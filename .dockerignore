@@ -1,0 +1,10 @@
+.git
+.env*
+*.bin
+DS_STORE
+.reop*
+temp
+*.priv
+*.crt
+
+

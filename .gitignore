@@ -1,0 +1,9 @@
+.env
+*.exe
+*.bin
+*.crt
+*.tfstate*
+DS_STORE
+.reop*
+.idea
+
