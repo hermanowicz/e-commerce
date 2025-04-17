@@ -38,6 +38,8 @@ func main() {
 		Handler:      r,
 	}
 
+	// Todo: add tls support later for testing using self-sign cert
+	// 	     re-use ibm tuts
 	err := s.ListenAndServe()
 	if err != nil {
 		log.Fatal("startup failed with error:", err.Error())
